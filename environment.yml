@@ -1,0 +1,23 @@
+name: cesm-fsspec-tutorial
+channels:
+        - conda-forge
+dependencies:
+        - python==3.8
+        - git
+        - pip
+        - fsspec
+        - matplotlib
+        - numpy
+        - tqdm
+        - xarray
+        - jupyterlab
+        - h5py<3.2
+        - zarr
+        - dask
+        - ujson
+        - hvplot
+        - pip:
+            - s3fs
+            - numcodecs
+            - adlfs>=0.7.7
+            - git+https://github.com/intake/fsspec-reference-maker
