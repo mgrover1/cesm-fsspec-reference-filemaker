@@ -16,8 +16,18 @@ dependencies:
         - dask
         - ujson
         - hvplot
+        - ipykernel
+        - pandas
+        - xarray
+        - dask
+        - matplotlib
+        - intake-esm
+        - ncar-jobqueue
         - pip:
             - s3fs
             - numcodecs
+            - tqdm
             - adlfs>=0.7.7
+            - ecgtools
+            - typing_extensions
             - git+https://github.com/intake/fsspec-reference-maker
